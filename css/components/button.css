@@ -1,4 +1,20 @@
+.actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-items: center;
+}
+
 .btn-login {
+    background: var(--cor-fundo);
+    border: 2px solid var(--cor-borda-suave);
+    border-radius: var(--raio-borda);
+    padding: 10px 16px;
+    font-weight: 700;
+}
+
+.btn-secao {
     background: var(--cor-fundo);
     border: 2px solid var(--cor-borda-suave);
     border-radius: var(--raio-borda);

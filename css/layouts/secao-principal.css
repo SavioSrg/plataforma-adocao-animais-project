@@ -1,7 +1,28 @@
 .secao-principal {
-    background-image: url(../../assets/images/cachorro-bg.png);
+    /* background-image: url(../../assets/images/cachorro-bg.png); */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.2)),url(../../assets/images/cachorro-bg.png); 
     background-position: center bottom;
     background-size: cover;
-    width: 100vw;
-    height: 80vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: var(--espacamento-medio);
+
+    height: 85vh;
+}
+
+.titulo-principal { /* h1 na seção principal */
+    font-family: var(--fonte-titulo);
+    font-size: 3.5em; /* Ajuste para tamanho mais impactante */
+    font-weight: 800;
+}
+
+.subtitulo-principal { /* h2 na seção principal */
+    font-family: var(--fonte-texto); /* Use a fonte de corpo para o subtítulo */
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: var(--espacamento-grande);
 }
