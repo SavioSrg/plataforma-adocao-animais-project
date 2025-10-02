@@ -15,6 +15,6 @@ nav {
 }
 
 nav>a {
-    color: var(--cor-texto);
+    color: var(--cor-texto-principal);
     text-decoration: none;
 }

@@ -1,0 +1,7 @@
+.secao-principal {
+    background-image: url(../../assets/images/cachorro-bg.png);
+    background-position: center bottom;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}

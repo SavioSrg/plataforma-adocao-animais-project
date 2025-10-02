@@ -1,6 +1,22 @@
 :root {
-    --cor-texto: #ff0000;
+    --cor-primaria: #FFB74D;
+    --cor-secundaria: #00897B;
+    --cor-texto-principal: #37474F;
+    --cor-fundo: #F7F9F9;
+    --cor-borda-suave: #ECEFF1;
+    --cor-sucesso: #4CAF50;
+    --cor-alerta: #FF9800;
+
+    --fonte-titulo: 'Nunito', sans-serif;
     --fonte-texto: 'Lato', serif;
-    --radius-padrao: 16px;
-    --bg: #00ffbf;
+   --tamanho-base: 16px;
+   
+    --espacamento-pequeno: 8px;
+    --espacamento-medio: 16px;
+    --espacamento-grande: 32px;
+
+    --largura-maxima-conteudo: 1200px;
+    --raio-borda: 16px;
+
+    --sombra-card: 0 4px 8px rgba(0, 0, 0, 0.05);
 }

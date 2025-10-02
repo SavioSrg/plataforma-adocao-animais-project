@@ -5,6 +5,7 @@
 
 /* 2. Layouts (Estrutura da página) */
 @import url('./layouts/header.css');
+@import url('./layouts/secao-principal.css');
 
 /* 3. Componentes */
 @import url('./components/button.css')

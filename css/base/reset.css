@@ -5,10 +5,11 @@
 
 body {
     font-family: var(--fonte-texto);
+    font-size: var(--tamanho-base);
 }
 
 .container {
-    max-width: 1100px;
+    max-width: var(--largura-maxima-conteudo);
     margin: 0 auto;
     padding: 20px 24px;
 }

@@ -1,6 +1,7 @@
 .btn-login {
-    background: var(--bg);
-    border: 2px solid var(--cor-btn);
-    border-radius: var(--radius-padrao);
-    padding: 10px 14px;
+    background: var(--cor-fundo);
+    border: 2px solid var(--cor-borda-suave);
+    border-radius: var(--raio-borda);
+    padding: 10px 16px;
+    font-weight: 700;
 }
