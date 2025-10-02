@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-texto);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}

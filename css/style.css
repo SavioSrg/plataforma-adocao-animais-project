@@ -1,0 +1,10 @@
+/* 1. Base */
+@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/typography.css');
+
+/* 2. Layouts (Estrutura da página) */
+@import url('./layouts/header.css');
+
+/* 3. Componentes */
+@import url('./components/button.css')

@@ -1,0 +1,20 @@
+header {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+nav>a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
