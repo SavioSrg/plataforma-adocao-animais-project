@@ -23,12 +23,16 @@ h1 {
     font-family: var(--fonte-titulo);
     font-size: 40px;
     font-weight: 800;
-    text-align: center;
 }
 
 h2 {
     font-family: var(--fonte-titulo);
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: var(--espacamento-pequeno);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: var(--espacamento-medio);
 }

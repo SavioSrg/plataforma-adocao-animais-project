@@ -20,4 +20,6 @@
     border-radius: var(--raio-borda);
     padding: 10px 16px;
     font-weight: 700;
+    font-size: 18px;
+    text-align: center;
 }

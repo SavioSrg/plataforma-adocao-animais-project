@@ -1,0 +1,21 @@
+.secao-campanha {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.div-campanha {
+display: grid;
+    grid-template-columns: 1fr 420px;
+    align-items: center;
+      gap: var(--espacamento-pequeno);
+  width: 100%;
+  height: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
